@@ -1,7 +1,7 @@
 import gmail
 
 def send_mail_for_openacn(to_mail,uacno,uname,upass,udate):
-        con=gmail.GMail('vishwapriyaranjan8022@gmail.com','xiqm eobj rfgg grcy')
+        con=gmail.GMail('Gmail','Password')
         sub='Account Opened with Dhan Laxmi Cheat Bank'
 
         body=f"""Dear {uname},
